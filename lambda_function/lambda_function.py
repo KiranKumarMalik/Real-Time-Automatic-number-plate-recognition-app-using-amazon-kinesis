@@ -12,7 +12,7 @@ def random_string():
     return ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(10))
 
 
-region_name = 'us-east-1'
+region_name = 'ap-south-1'
 
 # define clients
  
